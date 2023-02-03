@@ -72,7 +72,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
             </ul>
-            <form method="POST" action='/search' class="form-inline my-2 my-lg-0">
+            <form method="GET" action='/products/search' class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" name="Search" type="search" placeholder="Search"
                     aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -88,21 +88,21 @@
         <br>
         <label class="ml-4 my-2">Phones</label>
         <br>
-        <button onclick="location.href = '/phones';" id="phones" class="btn btn-secondary ml-3"> View </button>
+        <button onclick="location.href = '/products/phones';" id="phones" class="btn btn-secondary ml-3"> View </button>
     </div>
     <div class="container2">
         <img id="image" src="/books.png" width="100" height="100">
         <br>
         <label class="ml-4 my-2">Books</label>
         <br>
-        <button onclick="location.href = '/books';" id="books" class="btn btn-secondary ml-3"> View </button>
+        <button onclick="location.href = '/products/books';" id="books" class="btn btn-secondary ml-3"> View </button>
     </div>
     <div class="container3">
         <img id="image" src="/sports.png" width="100" height="100">
         <br>
         <label class="ml-4 my-2">Sports</label>
         <br>
-        <button onclick="location.href = '/sports';" id="sports" class="btn btn-secondary ml-3"> View </button>
+        <button onclick="location.href = '/products/sports';" id="sports" class="btn btn-secondary ml-3"> View </button>
     </div>
     <div class="cart">
         <button onclick="location.href = '/cart';" id="cart" class="btn btn-secondary ml-3"

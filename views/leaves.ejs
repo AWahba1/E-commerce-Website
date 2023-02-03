@@ -70,7 +70,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
             </ul>
-            <form method="POST" action='/search' class="form-inline my-2 my-lg-0">
+            <form method="GET" action='/products/search' class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" name="Search" type="search" placeholder="Search"
                     aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -90,7 +90,7 @@
         <label style="color:rgba(231, 8, 8, 0.925)">
             <%= message %>
         </label><br>
-        <form method="POST">
+        <form method="POST" action="/cart/leaves">
             <button id="cart" class="btn btn-secondary ml-3">Add to Cart</button>
         </form>
     </div>

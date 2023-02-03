@@ -62,7 +62,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
             </ul>
-            <form method="POST" action='/search' class="form-inline my-2 my-lg-0">
+            <form method="GET" action='/products/search' class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" name="Search" type="search" placeholder="Search"
                     aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -74,14 +74,14 @@
         <br>
         <label id="label1" class="ml-4 my-2">Leaves of Grass</label>
         <br>
-        <button onclick="location.href = '/leaves';" id="leaves" class="btn btn-secondary ml-3"> View </button>
+        <button onclick="location.href = '/products/leaves';" id="leaves" class="btn btn-secondary ml-3"> View </button>
     </div>
     <div class="container2">
         <img id="image" src="/sun.jpg" width="193" height="300">
         <br>
         <label id ="label2" class="ml-4 my-2">The Sun and Her Flowers</label>
         <br>
-        <button onclick="location.href = '/sun';" id="sun" class="btn btn-secondary ml-3"> View </button>
+        <button onclick="location.href = '/products/sun';" id="sun" class="btn btn-secondary ml-3"> View </button>
     </div>
 </body>
 </html>

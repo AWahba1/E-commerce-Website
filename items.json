@@ -1,26 +1,26 @@
 [
     {
         "name": "The Sun and Her Flowers",
-        "tag": "/sun"
+        "tag": "/products/sun"
     },
     {
         "name": "Leaves of Grass",
-        "tag": "/leaves"
+        "tag": "/products/leaves"
     },
     {
         "name": "Galaxy S21 Ultra",
-        "tag": "/galaxy"
+        "tag": "/products/galaxy"
     },
     {
         "name": "iPhone 13 Pro",
-        "tag": "/iphone"
+        "tag": "/products/iphone"
     },
     {
         "name": "Boxing Bag",
-        "tag": "/boxing"
+        "tag": "/products/boxing"
     },
     {
         "name": "Tennis Racket",
-        "tag": "/tennis"
+        "tag": "/products/tennis"
     }
 ]
